@@ -1,0 +1,251 @@
+/* ======== ESTILOS GENERALES ======== */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f0f15;
+  color: #fff;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* ======== HEADER ======== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #0b0b10;
+  border-bottom: 1px solid #2a2a34;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.menu-icon {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* ======== HERO ======== */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 50px;
+  background: linear-gradient(to bottom, #14141d, #0f0f15);
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text .tag {
+  color: #ffb374;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+}
+
+.hero-text .puesto {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #aaa;
+}
+
+.hero-info p {
+  margin: 5px 0;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 12px 30px;
+  background: #ff8a30;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #ff9f56;
+}
+
+.hero-img img {
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 140, 50, 0.3);
+}
+
+/* ======== EXPERIENCIAS ======== */
+.experiencias {
+  padding: 80px 50px;
+  background: #0f0f15;
+}
+
+.experiencias h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.exp-item {
+  margin-bottom: 40px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #2a2a34;
+}
+
+.fecha {
+  color: #ff8a30;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.empresa {
+  color: #ccc;
+  font-style: italic;
+}
+
+/* ======== HABILIDADES ======== */
+.habilidades {
+  padding: 80px 50px;
+  background: #14141d;
+}
+
+.habilidades h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.skill {
+  margin-bottom: 25px;
+}
+
+.barra {
+  width: 100%;
+  background: #2a2a34;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 12px;
+  margin-top: 5px;
+}
+
+.barra span {
+  display: block;
+  height: 100%;
+  background: #ff3b30;
+  border-radius: 10px;
+}
+
+/* ======== PORTAFOLIO ======== */
+.portafolio {
+  padding: 80px 50px;
+  background: #0f0f15;
+ 
+}
+
+.portafolio h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.portafolio p {
+  text-align: center;
+  color: #aaa;
+  margin-bottom: 40px;
+}
+
+.grid-portafolio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.item {
+  background: #181820;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(255, 130, 50, 0.3);
+}
+
+.item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* ======== FOOTER ======== */
+.footer {
+  text-align: center;
+  padding: 25px;
+  background: #0b0b10;
+  margin-top: 50px;
+  color: #777;
+}
+
+/* --- ABOUT ME SECTION --- */
+.about-me-section {
+    background: linear-gradient(180deg, #0f0f14 0%, #1c1c25 100%);
+    padding: 100px 10%;
+    color: #ffffff;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 320px;
+}
+
+.about-text h2 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+    color: #cccccc;
+    line-height: 1.7;
+}
+
+.btn-about {
+    display: inline-block;
+    padding: 14px 40px;
+    background-color: #ff7b00;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 0.3s ease;
+    letter-spacing: 1px;
+}
+
+.btn-about:hover {
+    background-color: #ffa044;
+}
+
